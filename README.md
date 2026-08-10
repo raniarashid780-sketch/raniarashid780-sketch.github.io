@@ -1,37 +1,36 @@
-# raniarashid780-sketch.github.io
-# 🌐 Rania Rashid — Personal Portfolio Website
+# Rania Rashid — Personal Portfolio
 
-My personal portfolio website showcasing my skills, 
-projects and education as a BS AI student.
+This repository contains the source code for my personal portfolio website. The site is built with plain HTML and CSS and is designed to showcase my background, skills, projects, and contact information in a clean and professional way.
 
-## 🔗 Live Website
-👉 [raniarashid780-sketch.github.io](https://raniarashid780-sketch.github.io)
+## Live Website
+Visit the site here: https://raniarashid780-sketch.github.io
 
-## ✨ What's Inside
-- About me section
-- Skills & tech stack
-- Education & certifications
-- Projects I'm working on
-- Contact details
-- Light / Dark mode toggle
+## What the Portfolio Includes
+- A short introduction about me
+- Skills and technical interests
+- Education and academic background
+- Featured projects
+- Contact links and email
 
-## 🛠️ Built With
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Claude AI](https://img.shields.io/badge/Claude_AI-7C3AED?style=for-the-badge&logo=anthropic&logoColor=white)
+## Technologies Used
+- HTML5
+- CSS3
 
-> 💡 This portfolio was built with the help of Claude AI.
-> I'm currently learning HTML, CSS and JavaScript 
-> as part of my BS AI degree. This is just the beginning! 🚀
+## Project Structure
+- index.html — main structure and content of the website
+- media/ — images and other media assets
 
-## 👩‍💻 About Me
-BS Artificial Intelligence Student at Ghazi University 
-DG Khan, Pakistan 🇵🇰
+## How to View Locally
+1. Clone this repository
+2. Open index.html in your browser
+3. Or use a simple local server if you prefer
 
-Currently learning:
-- Python Programming
-- Object Oriented Programming
-- Linear Algebra & Mathematics
-- Artificial Intelligence Fundamentals
+## About Me
+I am a BS Artificial Intelligence student with a strong interest in Python, data analysis, problem-solving, and building practical tools that can make a real impact.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rania-rashid-aa101a397)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/raniarashid780-sketch)
+## Contact
+- Email: raniarashid780@gmail.com
+- GitHub: https://github.com/raniarashid780-sketch
+- LinkedIn: https://www.linkedin.com/in/rania-rashid00/
+
+This portfolio is a simple, modern web project and continues to grow as I learn and build more.
