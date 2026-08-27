@@ -1,0 +1,10 @@
+{
+  "description": "Showcases the portfolio of Rania Rashid, an aspiring AI engineer, with a visually engaging layout that highlights her skills and projects in a personal, elegant manner.",
+  "robots": {
+    "index": true
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
