@@ -165,32 +165,34 @@
       <div class="project-grid">
 
         <details class="project-card" style="--accent:#E8879C; --accent-muted:#4A2E38;">
-          <summary>
-            <div class="card-top">
-              <span class="dot" style="background:#E8879C;"></span>
-              <span class="status-badge">OOP capstone</span>
-            </div>
-            <div class="card-media">
-              <img src="media/smartcare-demo.png" alt="SmartCare-Clinic project preview" />
-            </div>
-            <h4>SmartCare-Clinic</h4>
-            <p class="card-desc">A terminal-based clinic appointment and diagnosis simulation. Auto-generates patient IDs, routes symptoms to the right specialty, flags urgent cases, assigns doctors, and bills with an urgency surcharge — colored terminal output for readability.</p>
-          </summary>
-          <div class="card-detail">
-            <p class="detail-label">what i learned</p>
-            <p class="detail-text">Inheritance (Patient, Doctor, Receptionist from Person), polymorphism across introduce() and apply(), encapsulation via private attributes, abstract base classes, and operator overloading for sorting and printing appointments.</p>
-          </div>
-          <div class="card-tags">
-            <span class="tag-mono">Python</span>
-            <span class="tag-mono">OOP</span>
-            <span class="tag-mono">ABC</span>
-            <span class="tag-mono">colorama</span>
-          </div>
-          <div class="card-links">
-            <a href="https://github.com/raniarashid780-sketch/SmartCare-Clinic" target="_blank" rel="noopener" class="repo-link" style="color:#E8879C;">Repository ↗</a>
-            <span class="more-toggle">more ↓</span>
-          </div>
-        </details>
+  <summary>
+    <div class="card-top">
+      <span class="dot" style="background:#E8879C;"></span>
+      <span class="status-badge">OOP capstone → REST API</span>
+    </div>
+    <div class="card-media">
+      <img src="media/smartcare-demo.png" alt="SmartCare-Clinic project preview" />
+    </div>
+    <h4>SmartCare-Clinic</h4>
+    <p class="card-desc">A clinic appointment and diagnosis system that started as a terminal-based OOP project and grew into a full REST API. Auto-generates patient IDs, routes symptoms to the right specialty, flags urgent cases, assigns doctors, and bills with an urgency surcharge — now backed by PostgreSQL via SQLAlchemy, versioned Alembic migrations, and a FastAPI layer that enforces no-double-booking at the database level.</p>
+  </summary>
+  <div class="card-detail">
+    <p class="detail-label">what i learned</p>
+    <p class="detail-text">Beyond the original OOP work (inheritance, polymorphism, encapsulation, ABCs, operator overloading): SQLAlchemy 2.0 ORM modeling, Alembic migrations (including adopting an existing hand-built schema instead of dropping/recreating), FastAPI dependency injection for session lifecycle, and designing a layered architecture (models/schemas/crud/service/routes) so business logic is reused, not duplicated, across the terminal app and the API.</p>
+  </div>
+  <div class="card-tags">
+    <span class="tag-mono">Python</span>
+    <span class="tag-mono">SQLAlchemy</span>
+    <span class="tag-mono">Alembic</span>
+    <span class="tag-mono">FastAPI</span>
+    <span class="tag-mono">PostgreSQL</span>
+    <span class="tag-mono">OOP</span>
+  </div>
+  <div class="card-links">
+    <a href="https://github.com/raniarashid780-sketch/SmartCare-Clinic" target="_blank" rel="noopener" class="repo-link" style="color:#E8879C;">Repository ↗</a>
+    <span class="more-toggle">more ↓</span>
+  </div>
+</details>
 
         <details class="project-card" style="--accent:#B3A6E0; --accent-muted:#332C4A;">
           <summary>
@@ -263,6 +265,7 @@
             <span class="pill" style="--c:#E8879C; --m:#4A2E38;">Python</span>
           </div>
         </div>
+
         <div class="skill-row">
           <span class="skill-group" style="color:#B3A6E0;">Data</span>
           <div class="skill-pills">
@@ -271,14 +274,18 @@
             <span class="pill" style="--c:#B3A6E0; --m:#332C4A;">matplotlib</span>
           </div>
         </div>
+
         <div class="skill-row">
           <span class="skill-group" style="color:#E8A882;">Database</span>
           <div class="skill-pills">
             <span class="pill" style="--c:#E8A882; --m:#3E3126;">SQL</span>
             <span class="pill" style="--c:#E8A882; --m:#3E3126;">PostgreSQL</span>
-            <span class="pill" style="--c:#E8A882; --m:#3E3126;">DBeaver</span>
+            <span class="pill" style="--c:#E8A882; --m:#3E3126;">SQLAlchemy</span>
+            <span class="pill" style="--c:#E8A882; --m:#3E3126;">Alembic</span>
+
           </div>
         </div>
+
         <div class="skill-row">
           <span class="skill-group" style="color:#E8879C;">Tooling</span>
           <div class="skill-pills">
@@ -289,25 +296,22 @@
             <span class="pill" style="--c:#E8879C; --m:#4A2E38;">pytest</span>
             <span class="pill" style="--c:#E8879C; --m:#4A2E38;">Git / GitHub</span>
             <span class="pill" style="--c:#E8879C; --m:#4A2E38;">Streamlit</span>
+            <span class="pill" style="--c:#E8A882; --m:#3E3126;">DBeaver</span>
           </div>
         </div>
+
         <div class="skill-row">
           <span class="skill-group" style="color:#B3A6E0;">Practices</span>
           <div class="skill-pills">
             <span class="pill" style="--c:#B3A6E0; --m:#332C4A;">Object-Oriented Programming</span>
           </div>
         </div>
+
         <div class="skill-row">
           <span class="skill-group" style="color:#E8A882;">Building</span>
           <div class="skill-pills">
-            <span class="pill" style="--c:#E8A882; --m:#3E3126;">FastAPI</span>
-            <span class="pill" style="--c:#E8A882; --m:#3E3126;">Docker</span>
-          </div>
-        </div>
-        <div class="skill-row">
-          <span class="skill-group" style="color:#E8A882;">In progress</span>
-          <div class="skill-pills">
-            <span class="pill" style="--c:#E8A882; --m:#3E3126;">SQLAlchemy</span>
+            <span class="pill" style="--c:#E8A882; --m:#3E3126;">Exploratory Data Analysis</span>
+
           </div>
         </div>
       </div>
@@ -324,7 +328,7 @@
         <div class="cert-card" style="--accent:#B3A6E0; --accent-muted:#332C4A;">
           <div class="cert-top">
             <span class="dot" style="background:#B3A6E0;"></span>
-            <span class="status-badge">Completed · 6 courses</span>
+            <span class="status-badge">Completed · 7 courses</span>
           </div>
           <h4>Google IT Automation with Python</h4>
           <p class="cert-issuer">Google · Coursera</p>
@@ -349,7 +353,7 @@
         practical Python tools that solve real problems.
       </p>
       <div class="contact-row">
-        <a href="mailto:raniarashid780@gmail.com" class="contact-btn contact-primary">raniarashid780@gmail.com</a>
+        <a href="mailto:raniarashid780@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-btn">Email ↗</a>
         <a href="https://github.com/raniarashid780-sketch" target="_blank" rel="noopener noreferrer" class="contact-btn">GitHub ↗</a>
         <a href="https://www.linkedin.com/in/rania-rashid00/" target="_blank" rel="noopener noreferrer" class="contact-btn">LinkedIn ↗</a>
       </div>
