@@ -163,36 +163,36 @@
       <h3 class="section-heading">Things I've built &amp; studied.</h3>
 
       <div class="project-grid">
-
         <details class="project-card" style="--accent:#E8879C; --accent-muted:#4A2E38;">
-  <summary>
-    <div class="card-top">
-      <span class="dot" style="background:#E8879C;"></span>
-      <span class="status-badge">OOP capstone → REST API</span>
-    </div>
-    <div class="card-media">
-      <img src="media/smartcare-demo.png" alt="SmartCare-Clinic project preview" />
-    </div>
-    <h4>SmartCare-Clinic</h4>
-    <p class="card-desc">A clinic appointment and diagnosis system that started as a terminal-based OOP project and grew into a full REST API. Auto-generates patient IDs, routes symptoms to the right specialty, flags urgent cases, assigns doctors, and bills with an urgency surcharge — now backed by PostgreSQL via SQLAlchemy, versioned Alembic migrations, and a FastAPI layer that enforces no-double-booking at the database level.</p>
-  </summary>
-  <div class="card-detail">
-    <p class="detail-label">what i learned</p>
-    <p class="detail-text">Beyond the original OOP work (inheritance, polymorphism, encapsulation, ABCs, operator overloading): SQLAlchemy 2.0 ORM modeling, Alembic migrations (including adopting an existing hand-built schema instead of dropping/recreating), FastAPI dependency injection for session lifecycle, and designing a layered architecture (models/schemas/crud/service/routes) so business logic is reused, not duplicated, across the terminal app and the API.</p>
-  </div>
-  <div class="card-tags">
-    <span class="tag-mono">Python</span>
-    <span class="tag-mono">SQLAlchemy</span>
-    <span class="tag-mono">Alembic</span>
-    <span class="tag-mono">FastAPI</span>
-    <span class="tag-mono">PostgreSQL</span>
-    <span class="tag-mono">OOP</span>
-  </div>
-  <div class="card-links">
-    <a href="https://github.com/raniarashid780-sketch/SmartCare-Clinic" target="_blank" rel="noopener" class="repo-link" style="color:#E8879C;">Repository ↗</a>
-    <span class="more-toggle">more ↓</span>
-  </div>
-</details>
+          <summary>
+            <div class="card-top">
+              <span class="dot" style="background:#E8879C;"></span>
+              <span class="status-badge">OOP capstone → REST API → Dockerized</span>
+            </div>
+            <div class="card-media">
+              <img src="media/smartcare-demo.png" alt="SmartCare-Clinic project preview" />
+            </div>
+            <h4>SmartCare-Clinic</h4>
+            <p class="card-desc">A clinic appointment and diagnosis system that started as a terminal-based OOP project and grew into a full REST API. Auto-generates patient IDs, routes symptoms to the right specialty, flags urgent cases, assigns doctors, and bills with an urgency surcharge — backed by PostgreSQL via SQLAlchemy, versioned Alembic migrations, and a FastAPI layer that enforces no-double-booking at the database level, all containerized with Docker Compose so it runs with one command, no local Postgres install required.</p>
+          </summary>
+          <div class="card-detail">
+            <p class="detail-label">what i learned</p>
+            <p class="detail-text">Beyond the original OOP work (inheritance, polymorphism, encapsulation, ABCs, operator overloading): SQLAlchemy 2.0 ORM modeling, Alembic migrations (including adopting an existing hand-built schema instead of dropping/recreating), FastAPI dependency injection for session lifecycle, and designing a layered architecture (models/schemas/crud/service/routes) so business logic is reused, not duplicated, across the terminal app and the API. Most recently: multi-container Docker orchestration — service networking, healthchecks to solve startup-ordering races, persistent volumes, and rebuilding a migration history that had silently depended on a hand-run schema.sql instead of being self-contained.</p>
+          </div>
+          <div class="card-tags">
+            <span class="tag-mono">Python</span>
+            <span class="tag-mono">SQLAlchemy</span>
+            <span class="tag-mono">Alembic</span>
+            <span class="tag-mono">FastAPI</span>
+            <span class="tag-mono">PostgreSQL</span>
+            <span class="tag-mono">Docker</span>
+            <span class="tag-mono">OOP</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/raniarashid780-sketch/SmartCare-Clinic" target="_blank" rel="noopener" class="repo-link" style="color:#E8879C;">Repository ↗</a>
+            <span class="more-toggle">more ↓</span>
+          </div>
+        </details>
 
         <details class="project-card" style="--accent:#B3A6E0; --accent-muted:#332C4A;">
           <summary>
